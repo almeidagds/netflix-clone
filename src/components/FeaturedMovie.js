@@ -23,8 +23,8 @@ export default ({item}) => {
                     </div>
                     <div className="featured--description">{item.overview}</div>
                     <div className="featured--buttons">
-                        <a href={`/watch/${item.id}`}>► Assistir</a>
-                        <a href={`/add/list/${item.id}`}>+ Minha lista</a>
+                        <a className="featured--watchbutton" href={`/watch/${item.id}`}>► Assistir</a>
+                        <a className="featured--mylistbutton" href={`/add/list/${item.id}`}>+ Minha Lista</a>
                     </div>
                     <div className="featured--genres"><strong>Gêneros: </strong>{genres.join(", ")}</div>
                 </div>
