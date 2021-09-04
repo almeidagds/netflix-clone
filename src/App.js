@@ -53,6 +53,12 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items} />
         ))}
       </section>
+
+      <footer>
+          <p>Projeto React desenvolvido por Gabriel de Almeida</p>
+          <p>Direitos de imagem para &copy; Netflix</p>
+          <p>Dados coletados do site themoviedb.org</p>
+      </footer>
     </div>
   )
 }
